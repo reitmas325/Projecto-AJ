@@ -12,10 +12,10 @@
  */
 
 static bool Compare(Item this, Item other){
-	if(this.id == other.id){				/**!<Compara el id de los items*/		
-		return true;						/**!<Si son iguales retorna true*/
+	if(this.id == other.id){						
+		return true;						
 	}else{
-		return false;						/**!<Si son diferentes retorna false*/	
+		return false;							
 	}
 }
 
@@ -38,8 +38,8 @@ static bool Compare(Item this, Item other){
  */
 
 static bool Tower_Move(DLL* this, DLL *other, Item *piece, int _x, int _y){
-	assert(this);						/**!<Verifica que exista la primer DLL*/	
-	assert(other);						/**!<Verifica que exista la segunda DLL*/	
+	assert(this);							
+	assert(other);						
 }
 
 /**
@@ -60,8 +60,8 @@ static bool Tower_Move(DLL* this, DLL *other, Item *piece, int _x, int _y){
  */
 
 static bool Bishop_Move(DLL* this, DLL *other, Item *piece, int _x, int _y){
-	assert(this);						/**!<Verifica que exista la primer DLL*/	
-	assert(other);						/**!<Verifica que exista la segunda DLL*/	
+	assert(this);							
+	assert(other);							
 }
 
 /**
@@ -82,8 +82,8 @@ static bool Bishop_Move(DLL* this, DLL *other, Item *piece, int _x, int _y){
  */
 
 static bool Pawn_Move(DLL* this, DLL *other, Item *piece, int _x, int _y){
-	assert(this);						/**!<Verifica que exista la primer DLL*/	
-	assert(other);						/**!<Verifica que exista la segunda DLL*/	
+	assert(this);							
+	assert(other);							
 }
 
 /**
@@ -104,8 +104,8 @@ static bool Pawn_Move(DLL* this, DLL *other, Item *piece, int _x, int _y){
  */
 
 static bool King_Move(DLL* this, DLL *other, Item *piece, int _x, int _y){
-	assert(this);						/**!<Verifica que exista la primer DLL*/	
-	assert(other);						/**!<Verifica que exista la segunda DLL*/	
+	assert(this);							
+	assert(other);							
 }
 
 /**
@@ -126,8 +126,8 @@ static bool King_Move(DLL* this, DLL *other, Item *piece, int _x, int _y){
  */
 
 static bool Queen_Move(DLL* this, DLL *other, Item *piece, int _x, int _y){
-	assert(this);						/**!<Verifica que exista la primer DLL*/	
-	assert(other);						/**!<Verifica que exista la segunda DLL*/	
+	assert(this);							
+	assert(other);							
 }
 
 /**
@@ -148,8 +148,8 @@ static bool Queen_Move(DLL* this, DLL *other, Item *piece, int _x, int _y){
  */
 
 static bool Horse_Move(DLL* this, DLL *other, Item *piece, int _x, int _y){
-	assert(this);						/**!<Verifica que exista la primer DLL*/	
-	assert(other);						/**!<Verifica que exista la segunda DLL*/	
+	assert(this);							
+	assert(other);							
 }
 
 DLL *Initialize(int type){
